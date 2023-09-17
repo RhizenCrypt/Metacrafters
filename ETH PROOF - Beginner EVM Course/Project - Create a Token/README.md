@@ -20,7 +20,9 @@ For code compilation, access the "Solidity Compiler" tab within the left-hand si
 
 After successful code compilation, you can initiate the contract deployment by navigating to the "Deploy & Run Transactions" tab found in the left-hand sidebar. From the dropdown menu, pick the "MyToken" contract, and subsequently, execute deployment by clicking the "Deploy" button.
 
-Upon successful contract deployment, you can interact with its various functions: **burn**, **mint**, **balances**, **tokenAbbrv**, **tokenSupply**. To do this, select the "MYTOKEN" contract in the left-hand sidebar, proceed to the **mint** function, and input the address and value in the following format: [insert address],[insert value]. You can select any address available in the "Account" section of the "Deploy & Run Transactions" tab, resembling something like this: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4. Once you have minted a token, feel free to explore the various functions. As a reminder, ensure the value is a positive number since it iss of type uint.
+Upon successful contract deployment, you can interact with its various functions: **burn**, **mint**, **balances**, **tokenAbbrv**, **tokenSupply**. To do this, select the "MYTOKEN" contract in the left-hand sidebar, proceed to the **mint** function, and input the address and value in the following format: [insert address],[insert value]. You can select any address available in the "Account" section of the "Deploy & Run Transactions" tab, resembling something like this: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4. Once you have minted a token, feel free to explore the various functions.
+
+As a friendly reminder, please make sure that the value entered is a positive number, as it should be of the uint data type. Additionally, keep in mind that you cannot burn more tokens than you possess, even if the console indicates that the function ran successfully.
 
 ## Authors
 RhizenCrypt
