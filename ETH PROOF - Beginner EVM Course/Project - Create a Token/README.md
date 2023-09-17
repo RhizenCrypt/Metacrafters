@@ -5,7 +5,7 @@ This Solidity program serves as an introductory approach to token creation, desi
 This Solidity program is focused on creating a token that includes the following requirements:
 
 1. Public variables for storing token details (Token Name, Token Abbreviation, Total Supply).
-2. A mapping of addresses to balances (address => uint).
+2. A mapping of addresses to balances.
 3. A mint function, which increases the total supply and address balance by a specified value.
 4. A burn function that decreases the total supply and address balance by a specified value.
 5. The burn function incorporates conditionals to ensure the account balance is sufficient for the specified burn amount.
